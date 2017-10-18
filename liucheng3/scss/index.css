@@ -1,0 +1,243 @@
+.header {
+  width: 100%;
+  height: 1rem;
+  z-index: 10;
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0; }
+  .header .logo {
+    width: 2.2rem;
+    height: 0.75rem;
+    font-size: 0;
+    margin-left: 0.18rem; }
+    .header .logo img {
+      width: 100%;
+      height: 100%; }
+  .header .xuan {
+    width: 1.25rem;
+    height: 0.75rem;
+    margin-right: 0.18rem;
+    display: flex;
+    justify-content: space-between; }
+    .header .xuan .dao {
+      width: 0.45rem;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center; }
+      .header .xuan .dao img {
+        width: 0.45rem;
+        height: 0.45rem; }
+      .header .xuan .dao span {
+        font-size: 0.22rem;
+        color: #999999;
+        width: 0.5rem;
+        height: 0.25rem;
+        overflow: hidden; }
+
+.banner {
+  width: 100%;
+  margin-top: 1rem; }
+  .banner .img1 {
+    width: 100%;
+    height: 2.5rem;
+    font-size: 0; }
+    .banner .img1 img {
+      width: 100%;
+      height: 100%; }
+  .banner .img2 {
+    width: 100%;
+    height: 8.5rem;
+    font-size: 0;
+    position: relative; }
+    .banner .img2 img {
+      width: 100%;
+      height: 100%; }
+    .banner .img2 p {
+      width: 2.15rem;
+      height: 0.45rem;
+      font-size: 0.28rem;
+      overflow: hidden; }
+    .banner .img2 .zi1 {
+      color: #ff4351;
+      font-size: 0.36rem;
+      position: absolute;
+      top: .55rem;
+      left: 1.15rem; }
+    .banner .img2 .zi2 {
+      position: absolute;
+      top: 2rem;
+      left: 1.85rem; }
+    .banner .img2 .zi3 {
+      position: absolute;
+      top: 3.5rem;
+      left: 3.7rem; }
+    .banner .img2 .zi4 {
+      position: absolute;
+      top: 5.1rem;
+      left: 1.85rem; }
+    .banner .img2 .zi5 {
+      position: absolute;
+      top: 6.65rem;
+      left: 3.7rem; }
+  .banner .img3 {
+    width: 100%;
+    height: 8.9rem;
+    font-size: 0;
+    position: relative; }
+    .banner .img3 img {
+      width: 100%;
+      height: 100%; }
+    .banner .img3 p {
+      width: 2.15rem;
+      height: 0.45rem;
+      font-size: 0.28rem;
+      overflow: hidden; }
+    .banner .img3 .zi1 {
+      color: #63beff;
+      font-size: 0.36rem;
+      position: absolute;
+      top: .55rem;
+      left: 4.95rem; }
+    .banner .img3 .zi2 {
+      position: absolute;
+      top: 2.05rem;
+      left: 3.7rem; }
+    .banner .img3 .zi3 {
+      position: absolute;
+      top: 3.75rem;
+      left: 1.85rem; }
+    .banner .img3 .zi4 {
+      position: absolute;
+      top: 5.15rem;
+      left: 3.7rem; }
+    .banner .img3 .zi5 {
+      position: absolute;
+      top: 6.85rem;
+      left: 1.85rem; }
+  .banner .img4 {
+    width: 100%;
+    height: 9.5rem;
+    font-size: 0;
+    position: relative; }
+    .banner .img4 img {
+      width: 100%;
+      height: 100%; }
+    .banner .img4 p {
+      width: 2.15rem;
+      height: 0.45rem;
+      font-size: 0.28rem;
+      overflow: hidden; }
+    .banner .img4 .zi1 {
+      color: #7c72e8;
+      font-size: 0.36rem;
+      position: absolute;
+      top: .5rem;
+      left: 1.2rem; }
+    .banner .img4 .zi2 {
+      position: absolute;
+      top: 1.95rem;
+      left: 1.9rem; }
+    .banner .img4 .zi3 {
+      position: absolute;
+      top: 3.55rem;
+      left: 3.6rem; }
+    .banner .img4 .zi4 {
+      position: absolute;
+      top: 5.1rem;
+      left: 1.9rem; }
+    .banner .img4 .zi5 {
+      position: absolute;
+      top: 6.7rem;
+      left: 3.6rem; }
+
+.neir {
+  width: 7.4rem;
+  margin: 0 auto;
+  padding-left: 0.1rem;
+  padding-top: 0.36rem;
+  padding-bottom: 0.36rem;
+  border-bottom: 30px solid gainsboro;
+  border-top: 30px solid gainsboro;
+  font-size: 0.28rem;
+  text-indent: 2em; }
+
+.fw {
+  width: 100%;
+  height: 1.3rem; }
+  .fw .fw-a {
+    width: 100%;
+    height: 1rem;
+    font-size: 0; }
+    .fw .fw-a .a-fw .icon-hot-line {
+      font-size: 0.32rem;
+      float: left;
+      color: #39c893;
+      margin-right: 0.1rem;
+      margin-left: 1.9rem;
+      margin-top: 0.3rem; }
+    .fw .fw-a .a-fw p {
+      width: 3.5rem;
+      height: 1rem;
+      overflow: hidden;
+      font-size: 0.28rem;
+      line-height: 1rem;
+      color: #333;
+      float: left; }
+  .fw .fw-b {
+    width: 100%;
+    height: 0.3rem; }
+    .fw .fw-b .fw-li {
+      width: 25%;
+      height: 0.3rem;
+      font-size: 0.28rem;
+      float: left;
+      text-align: center; }
+
+.footer {
+  width: 100%;
+  height: 1.85rem;
+  font-size: 0;
+  position: relative; }
+  .footer .ter-a {
+    width: 100%;
+    height: 1.06rem;
+    position: relative; }
+    .footer .ter-a .ter-p {
+      font-size: 0.25rem;
+      text-align: center;
+      line-height: 1.06rem; }
+  .footer .botton {
+    width: 100%;
+    height: 1.06rem;
+    background: rgba(0, 0, 0, 0.8) url(../img/bottom.png) no-repeat 1rem 0.15rem;
+    background-size: 4rem .8rem;
+    position: absolute;
+    top: -0.8rem;
+    position: relative; }
+    .footer .botton .mf {
+      width: 1.75rem;
+      height: .5rem;
+      background: #feb605;
+      font-size: .24rem;
+      color: white;
+      border: none;
+      border-radius: 0.5rem;
+      margin: .3rem 5.5rem; }
+    .footer .botton .xx {
+      width: .35rem;
+      height: .35rem;
+      position: absolute;
+      top: 0;
+      background: #60d4a8;
+      font-size: .24rem;
+      text-align: center;
+      line-height: .35rem;
+      color: white;
+      border-bottom-right-radius: 90%; }
+
+/*# sourceMappingURL=index.css.map */
