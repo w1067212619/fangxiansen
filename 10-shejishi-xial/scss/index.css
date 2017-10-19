@@ -1,0 +1,197 @@
+.header {
+  width: 100%;
+  height: 1rem;
+  z-index: 10;
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0; }
+  .header .logo {
+    width: 2.2rem;
+    height: 0.75rem;
+    font-size: 0;
+    margin-left: 0.18rem; }
+    .header .logo img {
+      width: 100%;
+      height: 100%; }
+  .header .xuan {
+    width: 1.25rem;
+    height: 0.75rem;
+    margin-right: 0.18rem;
+    display: flex;
+    justify-content: space-between; }
+    .header .xuan .dao {
+      width: 0.45rem;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center; }
+      .header .xuan .dao img {
+        width: 0.45rem;
+        height: 0.45rem; }
+      .header .xuan .dao span {
+        font-size: 0.22rem;
+        color: #999999;
+        width: 0.5rem;
+        height: 0.25rem;
+        overflow: hidden; }
+
+.hx {
+  width: 100%;
+  height: 1rem;
+  margin-top: 1rem;
+  border-bottom: 20px solid gainsboro;
+  border-top: 1px solid darkgray;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+  .hx section {
+    width: 1.95rem;
+    height: .55rem;
+    font-size: 0.36rem;
+    text-align: center;
+    line-height: .55rem;
+    border-right: 1px solid gainsboro; }
+  .hx li {
+    width: 1.35rem;
+    height: .55rem;
+    font-size: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .hx li img {
+      width: 0.45rem;
+      height: 0.45rem; }
+
+.artical {
+  width: 100%;
+  position: relative; }
+  .artical .mp {
+    width: 7.17rem;
+    height: 2.3rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0; }
+    .artical .mp .img {
+      width: 1.6rem;
+      height: 1.6rem; }
+      .artical .mp .img img {
+        width: 100%;
+        height: 100%; }
+    .artical .mp .js {
+      width: 5.37rem;
+      height: 1.4rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between; }
+      .artical .mp .js .name {
+        width: 100%;
+        height: .5rem; }
+        .artical .mp .js .name .mz {
+          font-size: .36rem; }
+        .artical .mp .js .name .yx {
+          width: .58rem;
+          height: .3rem;
+          display: inline-block;
+          background: #39c893;
+          color: white;
+          text-align: center;
+          line-height: .3rem;
+          margin-right: 2rem;
+          font-size: .24rem; }
+        .artical .mp .js .name span:nth-child(3) {
+          font-size: .36rem; }
+      .artical .mp .js .zp {
+        width: 5.15rem;
+        height: .35rem;
+        display: flex;
+        align-items: center; }
+        .artical .mp .js .zp .zp_sp {
+          width: 1.4rem;
+          height: .3rem;
+          font-size: .25rem;
+          margin-right: .4rem; }
+          .artical .mp .js .zp .zp_sp .zp_2 {
+            color: gray; }
+      .artical .mp .js .fg {
+        width: 4.45rem;
+        height: .35rem;
+        height: .3rem;
+        font-size: .25rem; }
+        .artical .mp .js .fg .zp_2 {
+          color: gray; }
+  .artical .sxy {
+    width: 7.05rem;
+    height: .82rem;
+    margin: .36rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .artical .sxy .ye {
+      width: 2.35rem;
+      height: 100%;
+      background: #3CC893;
+      font-size: .36rem;
+      border: none;
+      color: white; }
+    .artical .sxy span {
+      width: 2.35rem;
+      height: 100%;
+      display: inline-block;
+      text-align: center;
+      line-height: .82rem;
+      background: white;
+      font-size: .36rem; }
+  .artical .xiala {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background: rgba(0, 0, 0, 0.7); }
+    .artical .xiala .nr {
+      width: 100%;
+      height: 6.6rem;
+      overflow: hidden;
+      background: #f4f4f4; }
+      .artical .xiala .nr .bux {
+        width: 7.3rem;
+        height: 2.08rem;
+        margin: 0 auto;
+        margin-top: .5rem;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: space-between; }
+        .artical .xiala .nr .bux button {
+          width: 2.37rem;
+          height: .58rem;
+          font-size: .28rem;
+          border: none; }
+        .artical .xiala .nr .bux .tou {
+          width: 100%;
+          height: .28rem;
+          line-height: .28rem;
+          font-size: .28rem;
+          line-height: .58rem; }
+        .artical .xiala .nr .bux .bx {
+          background: white;
+          text-align: center; }
+        .artical .xiala .nr .bux .rignt {
+          margin-right: .08rem; }
+        .artical .xiala .nr .bux .bx:hover {
+          border: 1px solid #37ca91;
+          color: #37ca91; }
+      .artical .xiala .nr .qr {
+        width: 100%;
+        height: .7rem;
+        margin-top: .75rem;
+        background: #37ca91;
+        border: none;
+        color: white;
+        font-size: .36rem; }
+
+/*# sourceMappingURL=index.css.map */

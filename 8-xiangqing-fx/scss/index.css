@@ -1,0 +1,344 @@
+.header {
+  width: 100%;
+  height: 1rem;
+  z-index: 10;
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0; }
+  .header .logo {
+    width: 2.2rem;
+    height: 0.75rem;
+    font-size: 0;
+    margin-left: 0.18rem; }
+    .header .logo img {
+      width: 100%;
+      height: 100%; }
+  .header .xuan {
+    width: 1.25rem;
+    height: 0.75rem;
+    margin-right: 0.18rem;
+    display: flex;
+    justify-content: center; }
+    .header .xuan .dao {
+      width: 0.45rem;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center; }
+      .header .xuan .dao img {
+        width: 0.45rem;
+        height: 0.45rem; }
+      .header .xuan .dao span {
+        font-size: 0.22rem;
+        color: #999999;
+        width: 0.5rem;
+        height: 0.25rem;
+        overflow: hidden; }
+
+.banner {
+  width: 100%;
+  height: 2.55rem;
+  font-size: 0;
+  margin-top: 1rem; }
+  .banner img {
+    width: 100%;
+    height: 100%; }
+
+.artical {
+  width: 7.15rem;
+  margin: .2rem auto;
+  position: relative; }
+  .artical .biaoti {
+    width: 100%;
+    height: .5rem;
+    background: #f4f4f4;
+    font-size: .24rem;
+    border-radius: .1rem; }
+    .artical .biaoti a {
+      display: inline-block;
+      color: black;
+      width: 1.15rem;
+      height: 100%;
+      text-align: center;
+      line-height: .5rem;
+      overflow: hidden; }
+  .artical .tou {
+    width: 100%;
+    height: 1.3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid gainsboro; }
+    .artical .tou .bt {
+      width: 3.1rem;
+      height: .45rem;
+      overflow: hidden;
+      font-size: .36rem;
+      margin-bottom: .2rem; }
+    .artical .tou .rq {
+      width: 3.3rem;
+      height: .35rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      .artical .tou .rq span {
+        font-size: .24rem;
+        color: #999; }
+        .artical .tou .rq span img {
+          width: .28rem;
+          height: .28rem;
+          margin-right: .2rem; }
+  .artical .xgt {
+    width: 100%;
+    height: 1.3rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center; }
+    .artical .xgt p {
+      width: 1.65rem;
+      height: .3rem;
+      font-size: .24rem;
+      overflow: hidden;
+      border: 1px solid grey;
+      color: gray;
+      margin-right: .12rem;
+      border-radius: .5rem;
+      text-align: center;
+      line-height: .3rem; }
+    .artical .xgt .pl {
+      width: 1.4rem;
+      height: .3rem; }
+  .artical .daoyu {
+    width: 100%;
+    font-size: .24rem;
+    text-indent: 2em; }
+  .artical .dt {
+    width: 6.05rem;
+    height: 5.3rem;
+    font-size: 0;
+    margin: .3rem auto; }
+    .artical .dt img {
+      width: 100%;
+      height: 100%; }
+  .artical .dianji {
+    width: 100%;
+    height: 3.6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; }
+    .artical .dianji .dj {
+      width: 100%;
+      height: 1rem;
+      border: 1px solid #3DC994;
+      background: white;
+      color: #3DC994;
+      font-size: .36rem;
+      border-radius: .1rem; }
+    .artical .dianji .pj {
+      width: 100%;
+      height: 2.2rem;
+      display: flex;
+      justify-content: space-around;
+      align-items: center; }
+      .artical .dianji .pj li {
+        width: 1.4rem;
+        height: 1.7rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        font-size: .24rem; }
+        .artical .dianji .pj li img {
+          width: 1.05rem;
+          height: 1.05rem; }
+  .artical .fx {
+    width: 7.05rem;
+    height: 4.5rem;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: .1rem;
+    overflow: hidden;
+    position: absolute;
+    bottom: 1.5rem; }
+    .artical .fx .nei {
+      width: 5.8rem;
+      height: 3.4rem;
+      margin: .8rem auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between; }
+      .artical .fx .nei li {
+        width: 1.45rem;
+        height: 1.95rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center; }
+        .artical .fx .nei li img {
+          width: 1.45rem;
+          height: 1.35rem;
+          margin-bottom: .25rem; }
+        .artical .fx .nei li span {
+          font-size: .35rem;
+          color: white; }
+      .artical .fx .nei .qx {
+        width: 100%;
+        height: .8rem;
+        background: white;
+        font-size: .35rem;
+        border: none; }
+
+.gonglue {
+  width: 100%;
+  border-top: 20px solid gainsboro;
+  border-bottom: 30px solid gainsboro; }
+  .gonglue .tou {
+    width: 90%;
+    height: 0.42rem;
+    margin: 0.32rem auto;
+    margin-bottom: 0.32rem;
+    font-size: 0;
+    border-left: 5px solid #3ac994; }
+    .gonglue .tou span {
+      font-size: 0.36rem;
+      margin-left: 0.3rem;
+      width: 1.6rem;
+      height: 0.42rem;
+      overflow: hidden; }
+  .gonglue .tuwen1 {
+    width: 7.16rem;
+    height: 2.1rem;
+    margin: 0 auto;
+    font-size: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border-bottom: 1px solid gainsboro; }
+    .gonglue .tuwen1 img {
+      width: 1.9rem;
+      height: 1.45rem;
+      margin-right: 0.22rem; }
+    .gonglue .tuwen1 .wen1 {
+      width: 5rem;
+      height: 1.45rem; }
+      .gonglue .tuwen1 .wen1 .min_wen {
+        width: 100%;
+        height: 1rem;
+        overflow: hidden;
+        font-size: 0.36rem;
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 0.22rem; }
+      .gonglue .tuwen1 .wen1 span {
+        width: 2.1rem;
+        height: 0.3rem;
+        overflow: hidden;
+        font-size: 0.28rem;
+        color: #999999; }
+        .gonglue .tuwen1 .wen1 span img {
+          width: 0.28rem;
+          height: 0.28rem;
+          margin-right: 0.1rem; }
+  .gonglue .huan {
+    width: 90%;
+    height: 0.7rem;
+    margin: 0.36rem auto;
+    margin-bottom: 0.36rem;
+    border: 1px solid gainsboro;
+    display: flex; }
+    .gonglue .huan li {
+      width: 50%;
+      height: 100%;
+      text-align: center;
+      line-height: 0.7rem;
+      font-size: 0.28rem; }
+
+.neir {
+  width: 7.4rem;
+  margin: 0.36rem auto;
+  padding-left: 0.1rem;
+  padding-bottom: 0.36rem;
+  border-bottom: 30px solid gainsboro;
+  font-size: 0.28rem;
+  text-indent: 2em; }
+
+.fw {
+  width: 100%;
+  height: 1.3rem; }
+  .fw .fw-a {
+    width: 100%;
+    height: 1rem;
+    font-size: 0; }
+    .fw .fw-a .a-fw .icon-hot-line {
+      font-size: 0.32rem;
+      float: left;
+      color: #39c893;
+      margin-right: 0.1rem;
+      margin-left: 1.9rem;
+      margin-top: 0.3rem; }
+    .fw .fw-a .a-fw p {
+      width: 3.5rem;
+      height: 1rem;
+      overflow: hidden;
+      font-size: 0.28rem;
+      line-height: 1rem;
+      color: #333;
+      float: left; }
+  .fw .fw-b {
+    width: 100%;
+    height: 0.3rem; }
+    .fw .fw-b .fw-li {
+      width: 25%;
+      height: 0.3rem;
+      font-size: 0.28rem;
+      float: left;
+      text-align: center; }
+
+.footer {
+  width: 100%;
+  height: 1.85rem;
+  font-size: 0;
+  position: relative; }
+  .footer .ter-a {
+    width: 100%;
+    height: 1.06rem;
+    position: relative; }
+    .footer .ter-a .ter-p {
+      font-size: 0.25rem;
+      text-align: center;
+      line-height: 1.06rem; }
+  .footer .botton {
+    width: 100%;
+    height: 1.06rem;
+    background: rgba(0, 0, 0, 0.8) url(../img/bottom.png) no-repeat 1rem 0.15rem;
+    background-size: 4rem .8rem;
+    position: absolute;
+    top: -0.8rem;
+    position: relative; }
+    .footer .botton .mf {
+      width: 1.75rem;
+      height: .5rem;
+      background: #feb605;
+      font-size: .24rem;
+      color: white;
+      border: none;
+      border-radius: 0.5rem;
+      margin: .3rem 5.5rem; }
+    .footer .botton .xx {
+      width: .35rem;
+      height: .35rem;
+      position: absolute;
+      top: 0;
+      background: #60d4a8;
+      font-size: .24rem;
+      text-align: center;
+      line-height: .35rem;
+      color: white;
+      border-bottom-right-radius: 90%; }
+
+/*# sourceMappingURL=index.css.map */

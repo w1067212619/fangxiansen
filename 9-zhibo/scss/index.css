@@ -1,0 +1,204 @@
+.header {
+  width: 100%;
+  height: 1rem;
+  z-index: 10;
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0; }
+  .header .logo {
+    width: 2.2rem;
+    height: 0.75rem;
+    font-size: 0;
+    margin-left: 0.18rem; }
+    .header .logo img {
+      width: 100%;
+      height: 100%; }
+  .header .xuan {
+    width: 1.25rem;
+    height: 0.75rem;
+    margin-right: 0.18rem;
+    display: flex;
+    justify-content: space-between; }
+    .header .xuan .dao {
+      width: 0.45rem;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center; }
+      .header .xuan .dao img {
+        width: 0.45rem;
+        height: 0.45rem; }
+      .header .xuan .dao span {
+        font-size: 0.22rem;
+        color: #999999;
+        width: 0.5rem;
+        height: 0.25rem;
+        overflow: hidden; }
+
+.hx {
+  width: 100%;
+  height: 1rem;
+  margin-top: 1rem;
+  border-bottom: 20px solid gainsboro;
+  border-top: 1px solid darkgray;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+  .hx section {
+    width: 1.95rem;
+    height: .55rem;
+    font-size: 0.36rem;
+    text-align: center;
+    line-height: .55rem;
+    border-right: 1px solid gainsboro; }
+  .hx li {
+    width: 1.35rem;
+    height: .55rem;
+    font-size: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .hx li img {
+      width: 0.45rem;
+      height: 0.45rem; }
+
+.artical {
+  width: 7.15rem;
+  margin: 0 auto; }
+  .artical .zy {
+    width: 100%;
+    height: 2.65rem;
+    border-bottom: 1px solid gainsboro;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+    .artical .zy .img {
+      width: 2.8rem;
+      height: 1.95rem; }
+      .artical .zy .img img {
+        width: 100%;
+        height: 100%; }
+    .artical .zy .js {
+      width: 4.2rem;
+      height: 1.95rem; }
+      .artical .zy .js .gy {
+        width: 100%;
+        height: .36rem;
+        font-size: .36rem;
+        max-width: 100%;
+        overflow: hidden;
+        text-overflow: ellipsis; }
+      .artical .zy .js .gc {
+        width: 1.45rem;
+        height: .3rem;
+        font-size: .25rem;
+        background: #37c993;
+        margin-top: .48rem;
+        color: white;
+        text-align: center;
+        line-height: .3rem;
+        border-radius: .1rem;
+        max-width: 100%;
+        overflow: hidden;
+        text-overflow: ellipsis; }
+      .artical .zy .js .pm {
+        width: 100%;
+        height: .3rem;
+        margin-top: .48rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center; }
+        .artical .zy .js .pm span {
+          font-size: .25rem;
+          color: #999999;
+          max-width: 100%;
+          overflow: hidden;
+          text-overflow: ellipsis; }
+          .artical .zy .js .pm span img {
+            width: .22rem;
+            height: .33rem; }
+  .artical .sxy {
+    width: 7.05rem;
+    height: .82rem;
+    margin: .36rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .artical .sxy .ye {
+      width: 2.35rem;
+      height: 100%;
+      background: #3CC893;
+      font-size: .36rem;
+      border: none;
+      color: white; }
+    .artical .sxy span {
+      width: 2.35rem;
+      height: 100%;
+      display: inline-block;
+      text-align: center;
+      line-height: .82rem;
+      background: white;
+      font-size: .36rem; }
+
+.neir {
+  width: 7.4rem;
+  margin: 0 auto;
+  padding-left: 0.1rem;
+  padding-top: 0.36rem;
+  padding-bottom: 0.36rem;
+  border-bottom: 30px solid gainsboro;
+  border-top: 30px solid gainsboro;
+  font-size: 0.28rem;
+  text-indent: 2em; }
+
+.fw {
+  width: 100%;
+  height: 1.3rem; }
+  .fw .fw-a {
+    width: 100%;
+    height: 1rem;
+    font-size: 0; }
+    .fw .fw-a .a-fw .icon-hot-line {
+      font-size: 0.32rem;
+      float: left;
+      color: #39c893;
+      margin-right: 0.1rem;
+      margin-left: 1.9rem;
+      margin-top: 0.3rem; }
+    .fw .fw-a .a-fw p {
+      width: 3.5rem;
+      height: 1rem;
+      overflow: hidden;
+      font-size: 0.28rem;
+      line-height: 1rem;
+      color: #333;
+      float: left; }
+  .fw .fw-b {
+    width: 100%;
+    height: 0.3rem; }
+    .fw .fw-b .fw-li {
+      width: 25%;
+      height: 0.3rem;
+      font-size: 0.28rem;
+      float: left;
+      text-align: center; }
+
+.footer {
+  width: 100%;
+  height: 1.85rem;
+  font-size: 0;
+  position: relative; }
+  .footer .ter-a {
+    width: 100%;
+    height: 1.06rem;
+    position: relative; }
+    .footer .ter-a .ter-p {
+      font-size: 0.25rem;
+      text-align: center;
+      line-height: 1.06rem; }
+
+/*# sourceMappingURL=index.css.map */
