@@ -1,0 +1,156 @@
+.header {
+  width: 100%;
+  height: 1rem;
+  z-index: 10;
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid gainsboro;
+  position: fixed;
+  top: 0; }
+  .header .logo {
+    width: 2.2rem;
+    height: 0.75rem;
+    font-size: 0;
+    margin-left: 0.18rem; }
+    .header .logo img {
+      width: 100%;
+      height: 100%; }
+  .header .xuan {
+    width: 1.25rem;
+    height: 0.75rem;
+    margin-right: 0.18rem;
+    display: flex;
+    justify-content: space-between; }
+    .header .xuan .dao {
+      width: 0.45rem;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center; }
+      .header .xuan .dao img {
+        width: 0.45rem;
+        height: 0.45rem; }
+      .header .xuan .dao span {
+        font-size: 0.22rem;
+        color: #999999;
+        width: 0.5rem;
+        height: 0.25rem;
+        overflow: hidden; }
+
+.artical {
+  width: 100%;
+  margin-top: 1rem;
+  position: relative; }
+  .artical .atc_li {
+    width: 6.93rem;
+    height: 2.5rem;
+    margin: 0 auto;
+    padding-left: .17rem;
+    overflow: hidden;
+    list-style: none;
+    border-bottom: 1px solid gainsboro; }
+    .artical .atc_li .li_top {
+      width: 6.93rem;
+      height: .64rem;
+      margin-top: .36rem;
+      display: flex;
+      align-items: center; }
+      .artical .atc_li .li_top .img {
+        width: .63rem;
+        height: .63rem;
+        margin-right: .2rem;
+        font-size: 0; }
+        .artical .atc_li .li_top .img img {
+          width: 100%;
+          height: 100%; }
+      .artical .atc_li .li_top .yy {
+        height: 100%;
+        line-height: .64rem;
+        max-width: 100%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-size: .3rem; }
+      .artical .atc_li .li_top .name {
+        width: 2rem;
+        color: #3bc994;
+        margin-right: 2rem; }
+      .artical .atc_li .li_top .rq {
+        width: 1.77rem;
+        color: #999999; }
+    .artical .atc_li .li_bot {
+      width: 6.74rem;
+      height: .92rem;
+      margin-top: .3rem;
+      font-size: .34rem;
+      line-height: .5rem;
+      max-width: 100%;
+      overflow: hidden;
+      text-overflow: ellipsis; }
+  .artical .sxy {
+    width: 7.05rem;
+    height: .82rem;
+    margin: .36rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .artical .sxy .ye {
+      width: 2.35rem;
+      height: 100%;
+      background: #3CC893;
+      font-size: .36rem;
+      border: none;
+      color: white; }
+    .artical .sxy .ys {
+      width: 2.35rem;
+      height: 100%;
+      display: inline-block;
+      text-align: center;
+      line-height: .82rem;
+      background: white;
+      font-size: .36rem;
+      border-bottom: 1px solid gainsboro;
+      border-top: 1px solid gainsboro; }
+  .artical .mb {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0; }
+    .artical .mb .jp {
+      width: 100%;
+      height: 8.85rem;
+      position: absolute;
+      bottom: 0; }
+      .artical .mb .jp .top {
+        width: 100%;
+        height: 2.95rem;
+        background: #f4f4f4;
+        display: flex;
+        flex-direction: column;
+        align-items: center; }
+        .artical .mb .jp .top .tt {
+          height: .4rem;
+          font-size: .36rem;
+          max-width: 100%;
+          overflow: hidden;
+          text-overflow: ellipsis; }
+        .artical .mb .jp .top .top_1 {
+          width: 5.4rem;
+          margin-top: .95rem;
+          margin-bottom: .25rem; }
+          .artical .mb .jp .top .top_1 .js {
+            color: #37c993; }
+        .artical .mb .jp .top .top_2 {
+          width: 3.3rem; }
+      .artical .mb .jp .bot {
+        width: 100%;
+        height: 5.9rem;
+        font-size: 0; }
+        .artical .mb .jp .bot img {
+          width: 100%;
+          height: 100%; }
+
+/*# sourceMappingURL=index.css.map */

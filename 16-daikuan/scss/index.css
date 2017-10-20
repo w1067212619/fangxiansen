@@ -1,0 +1,263 @@
+.header {
+  width: 100%;
+  height: 1rem;
+  z-index: 10;
+  background: white;
+  border-bottom: 1px solid #ebebeb;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0; }
+  .header .logo {
+    width: 2.2rem;
+    height: 0.75rem;
+    font-size: 0;
+    margin-left: 0.18rem; }
+    .header .logo img {
+      width: 100%;
+      height: 100%; }
+  .header .xuan {
+    width: 1.25rem;
+    height: 0.75rem;
+    margin-right: 0.18rem;
+    display: flex;
+    justify-content: space-between; }
+    .header .xuan .dao {
+      width: 0.45rem;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center; }
+      .header .xuan .dao img {
+        width: 0.45rem;
+        height: 0.45rem; }
+      .header .xuan .dao span {
+        font-size: 0.22rem;
+        color: #999999;
+        width: 0.5rem;
+        height: 0.25rem;
+        overflow: hidden; }
+
+.artical {
+  width: 100%;
+  background: #ffffff; }
+  .artical .banner {
+    width: 100%;
+    height: 2.5rem;
+    margin-top: 1rem; }
+    .artical .banner img {
+      width: 100%;
+      height: 100%; }
+  .artical .bt {
+    width: 3rem;
+    height: .36rem;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+    font-size: .36rem;
+    margin: 0 auto;
+    margin-top: .36rem; }
+  .artical .bk {
+    width: 7.15rem;
+    height: .25rem;
+    margin: 0 auto;
+    margin-top: .32rem;
+    margin-bottom: .36rem;
+    display: flex;
+    align-items: center; }
+    .artical .bk .xian {
+      width: 2.92rem;
+      border: 1px solid #e2e2e2; }
+    .artical .bk .tu {
+      width: .75rem;
+      height: 100%;
+      margin-left: .25rem;
+      margin-right: .25rem;
+      font-size: 0; }
+      .artical .bk .tu img {
+        width: 100%;
+        height: 100%; }
+  .artical .ljsq {
+    width: 5.85rem;
+    height: 3.55rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
+    .artical .ljsq .inpt {
+      width: 5.65rem;
+      height: .7rem;
+      border: 1px solid #ebebeb;
+      color: #ebebeb;
+      font-size: .26rem;
+      padding-left: .2rem;
+      border-radius: .1rem; }
+    .artical .ljsq .but {
+      width: 100%;
+      background: #feb605;
+      color: white; }
+  .artical .xk {
+    width: 7.13rem;
+    height: 2.05rem;
+    border: 1px dotted #37c995;
+    position: relative;
+    margin: 0 auto;
+    margin-top: .52rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .artical .xk .ti {
+      position: absolute;
+      top: -.15rem;
+      width: 3.22rem;
+      height: .3rem;
+      font-size: .3rem;
+      background: white;
+      text-align: center;
+      line-height: .3rem; }
+    .artical .xk .xk_txt {
+      width: 6.83rem;
+      height: 100%;
+      margin: 0 auto;
+      margin-top: .28rem;
+      font-size: .25rem;
+      text-indent: 2em;
+      line-height: .4rem; }
+    .artical .xk .jialv {
+      color: #39c893; }
+  .artical .lc {
+    width: 7.14rem;
+    height: 2.7rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between; }
+    .artical .lc .lc_li {
+      width: 2.1rem;
+      height: 100%;
+      border: 1px solid #37c993;
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      .artical .lc .lc_li .img {
+        width: 1.05rem;
+        height: 1.05rem;
+        margin-top: .35rem;
+        font-size: 0; }
+        .artical .lc .lc_li .img img {
+          width: 100%;
+          height: 100%; }
+      .artical .lc .lc_li .lc_p {
+        width: 1.75rem;
+        height: .28rem;
+        font-size: .26rem;
+        text-align: center;
+        line-height: .28rem;
+        max-width: 100%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        margin-top: .15rem; }
+      .artical .lc .lc_li .js {
+        color: #8c8c8c; }
+  .artical .tiaojian {
+    width: 7.14rem;
+    height: 4.3rem;
+    margin: 0 auto;
+    margin-bottom: .35rem;
+    display: flex;
+    flex-wrap: wrap; }
+    .artical .tiaojian .tj_li {
+      width: 49.9%;
+      height: 49.9%;
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      .artical .tiaojian .tj_li .li_img {
+        width: 1.05rem;
+        height: 1.05rem;
+        font-size: 0;
+        margin-bottom: .24rem; }
+        .artical .tiaojian .tj_li .li_img img {
+          width: 100%;
+          height: 100%; }
+      .artical .tiaojian .tj_li .li_txt {
+        width: 3.15rem;
+        height: .3rem;
+        font-size: .3rem;
+        text-align: center;
+        max-width: 100%;
+        overflow: hidden;
+        text-overflow: ellipsis; }
+      .artical .tiaojian .tj_li .top {
+        margin-top: .48rem; }
+    .artical .tiaojian .rt {
+      border-right: 1px solid #ebebeb; }
+    .artical .tiaojian .bot {
+      border-bottom: 1px solid #ebebeb; }
+  .artical .datu {
+    width: 100%;
+    height: 17rem;
+    margin-bottom: .35rem; }
+    .artical .datu img {
+      width: 100%;
+      height: 100%; }
+
+.neir {
+  width: 7.4rem;
+  margin: 0 auto;
+  line-height: .4rem;
+  padding-left: .1rem;
+  padding-bottom: .36rem;
+  border-bottom: .2rem solid #f4f4f4;
+  font-size: .28rem;
+  text-indent: 2em; }
+
+.fw {
+  width: 100%;
+  height: 1.3rem; }
+  .fw .fw-a {
+    width: 100%;
+    height: 1rem;
+    font-size: 0; }
+    .fw .fw-a .a-fw .icon-hot-line {
+      font-size: 0.32rem;
+      float: left;
+      color: #39c893;
+      margin-right: .1rem;
+      margin-left: 1.9rem;
+      margin-top: .3rem; }
+    .fw .fw-a .a-fw p {
+      width: 3.5rem;
+      height: 1rem;
+      overflow: hidden;
+      font-size: .28rem;
+      line-height: 1rem;
+      color: #333;
+      float: left; }
+  .fw .fw-b {
+    width: 100%;
+    height: .3rem; }
+    .fw .fw-b .fw-li {
+      width: 25%;
+      height: .3rem;
+      font-size: .28rem;
+      float: left;
+      text-align: center; }
+
+.footer {
+  width: 100%;
+  height: 1.85rem;
+  font-size: 0;
+  position: relative; }
+  .footer .ter-a {
+    width: 100%;
+    height: 1.06rem;
+    position: relative; }
+    .footer .ter-a .ter-p {
+      font-size: .25rem;
+      text-align: center;
+      line-height: 1.06rem; }
+
+/*# sourceMappingURL=index.css.map */

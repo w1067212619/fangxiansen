@@ -1,0 +1,149 @@
+.header {
+  width: 100%;
+  height: 1rem;
+  z-index: 10;
+  background: white;
+  border-bottom: 1px solid #ebebeb;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0; }
+  .header .logo {
+    width: 2.2rem;
+    height: 0.75rem;
+    font-size: 0;
+    margin-left: 0.18rem; }
+    .header .logo img {
+      width: 100%;
+      height: 100%; }
+  .header .xuan {
+    width: 1.25rem;
+    height: 0.75rem;
+    margin-right: 0.18rem;
+    display: flex;
+    justify-content: space-between; }
+    .header .xuan .dao {
+      width: 0.45rem;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center; }
+      .header .xuan .dao img {
+        width: 0.45rem;
+        height: 0.45rem; }
+      .header .xuan .dao span {
+        font-size: 0.22rem;
+        color: #999999;
+        width: 0.5rem;
+        height: 0.25rem;
+        overflow: hidden; }
+
+.artical {
+  width: 100%;
+  background: #ffffff; }
+  .artical .banner {
+    width: 100%;
+    height: 2.5rem;
+    margin-top: 1rem; }
+    .artical .banner img {
+      width: 100%;
+      height: 100%; }
+  .artical .bt {
+    width: 5.2rem;
+    height: .36rem;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+    font-size: .36rem;
+    margin: 0 auto;
+    margin-top: .36rem; }
+  .artical .bk {
+    width: 7.15rem;
+    height: .25rem;
+    margin: 0 auto;
+    margin-top: .32rem;
+    margin-bottom: .36rem;
+    display: flex;
+    align-items: center; }
+    .artical .bk .xian {
+      width: 2.92rem;
+      border: 1px solid #e2e2e2; }
+    .artical .bk .tu {
+      width: .75rem;
+      height: 100%;
+      margin-left: .25rem;
+      margin-right: .25rem;
+      font-size: 0; }
+      .artical .bk .tu img {
+        width: 100%;
+        height: 100%; }
+  .artical .txt {
+    width: 7.15rem;
+    height: 3.7rem;
+    margin: 0 auto;
+    font-size: .28rem;
+    color: #333333;
+    line-height: .46rem;
+    text-indent: 2em; }
+  .artical .xiatu {
+    width: 100%;
+    background: #f4f4f4; }
+    .artical .xiatu .xt {
+      width: 7.15rem;
+      height: 7.45rem;
+      margin: 0 auto;
+      font-size: 0; }
+      .artical .xiatu .xt img {
+        width: 100%;
+        height: 100%; }
+
+.fw {
+  width: 100%;
+  height: 1.3rem; }
+  .fw .fw-a {
+    width: 100%;
+    height: 1rem;
+    font-size: 0; }
+    .fw .fw-a .a-fw .icon-hot-line {
+      font-size: 0.32rem;
+      float: left;
+      color: #39c893;
+      margin-right: .1rem;
+      margin-left: 1.9rem;
+      margin-top: .3rem; }
+    .fw .fw-a .a-fw p {
+      width: 3.5rem;
+      height: 1rem;
+      overflow: hidden;
+      font-size: .28rem;
+      line-height: 1rem;
+      color: #333;
+      float: left; }
+  .fw .fw-b {
+    width: 100%;
+    height: .3rem; }
+    .fw .fw-b .fw-li {
+      width: 25%;
+      height: .3rem;
+      font-size: .28rem;
+      float: left;
+      text-align: center; }
+
+.footer {
+  width: 100%;
+  height: 1.85rem;
+  font-size: 0;
+  position: relative; }
+  .footer .ter-a {
+    width: 100%;
+    height: 1.06rem;
+    position: relative; }
+    .footer .ter-a .ter-p {
+      font-size: .25rem;
+      text-align: center;
+      line-height: 1.06rem; }
+
+/*# sourceMappingURL=index.css.map */
